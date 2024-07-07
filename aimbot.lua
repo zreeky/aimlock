@@ -1,7 +1,7 @@
 --[[
 
-	Universal Aimbot Module by Zreeky © CC0 1.0 Universal (2023 - 2024)
-	https://github.com/zreeky
+	Universal Aimbot Module by Exunys © CC0 1.0 Universal (2023 - 2024)
+	https://github.com/Exunys
 
 ]]
 
@@ -96,12 +96,12 @@ getgenv().ExunysDeveloperAimbot = {
 
 		TeamCheck = false,
 		AliveCheck = true,
-		WallCheck = true,
+		WallCheck = false,
 
 		OffsetToMoveDirection = false,
 		OffsetIncrement = 15,
 
-		Sensitivity = 0.05, -- Animation length (in seconds) before fully locking onto target
+		Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
 		Sensitivity2 = 3.5, -- mousemoverel Sensitivity
 
 		LockMode = 1, -- 1 = CFrame; 2 = mousemoverel
@@ -115,7 +115,7 @@ getgenv().ExunysDeveloperAimbot = {
 		Enabled = true,
 		Visible = false,
 
-		Radius = 75,
+		Radius = 90,
 		NumSides = 60,
 
 		Thickness = 1,
