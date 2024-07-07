@@ -1,6 +1,6 @@
 --[[
 
-	Universal Aimlock Module by Zreeky © CC0 1.0 Universal (2023 - 2024)
+	Universal Aimbot Module by Zreeky © CC0 1.0 Universal (2023 - 2024)
 	https://github.com/zreeky
 
 ]]
@@ -391,5 +391,3 @@ Environment.Load = Load -- ExunysDeveloperAimbot.Load()
 setmetatable(Environment, {__call = Load})
 
 return Environment
-
-game.StarterGui:SetCore("SendNotification", {Title = "Working.", Text = "Success, Script Loaded.", Duration = 4,})
