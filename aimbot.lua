@@ -391,3 +391,5 @@ Environment.Load = Load -- ExunysDeveloperAimbot.Load()
 setmetatable(Environment, {__call = Load})
 
 return Environment
+
+game.StarterGui:SetCore("SendNotification", {Title = "Working.", Text = "Success, Script Loaded.", Duration = 4,})
